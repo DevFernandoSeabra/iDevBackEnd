@@ -1,5 +1,6 @@
 # iDevBackEnd
 Projeto de Imersão Developer Back-end com NodeJS e Gemini patrocionado por Alura de 14 a 25 nov/2024.
+<<<<<<< HEAD
 
 1ª Aula - Desvendando Apis Servidores  
 
@@ -8,6 +9,8 @@ Relatório / Documentação;
 
 ◙XXXXXXX
 
+=======
+>>>>>>> 161961f7fb2049af3fd45657c73dd75ca788dc64
 - 👋 Hi, I’m @DevFernandoSeabra
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
