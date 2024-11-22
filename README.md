@@ -10,7 +10,7 @@ Relatório / Documentação;
 ◙XXXXXXX
 
 =======
->>>>>>> 161961f7fb2049af3fd45657c73dd75ca788dc64
+>>>>>>> 
 - 👋 Hi, I’m @DevFernandoSeabra
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
