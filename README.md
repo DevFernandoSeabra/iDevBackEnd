@@ -6,9 +6,9 @@ Projeto de Imersão Developer Back-end com NodeJS e Gemini patrocionado por Alur
 
 Imagens do meu projeto neste estagio;
 
-![Visual Studio Code - codando em node.js + NPM + Expreess + ES6](imagens/tela_VSCode.JPG)
+![Visual Studio Code - codando em node.js + NPM + Expreess + ES6](imagens/tela_VSCode.jpg)
 
-![Uso do Gemini IA da google como consulta, apoio e criação](imagens/Gemini.JPG)
+![Uso do Gemini IA da google como consulta, apoio e criação](imagens/gemini.JPG)
 
 ![Resposta do server id1 no Navegador](imagens/server_ID1.JPG)
 
