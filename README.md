@@ -1,5 +1,6 @@
 # iDevBackEnd
-Projeto de Imersão Developer Back-end com NodeJS e Gemini patrocionado por Alura de 14 a 25 nov/2024.
+Projeto de Imersão Developer Back-end com NodeJS e Gemini patrocionado por Alura de 14 a 25 nov/2024.</p>
+
 <<<<<<< HEAD
 
 1ª Aula - Desvendando Apis Servidores  
