@@ -1,26 +1,26 @@
 # iDevBackEnd
 Projeto de Imersão Developer Back-end com NodeJS e Gemini patrocionado por Alura de 14 a 25 nov/2024.
 
-A idéia é desenvolver o back-end de um site de coleções de postagens de imagens diversas, com foco em criação, leitura, atualização e deleção no que refere-se a postagem da imagem e de sua descrição.
+A ideia é desenvolver o back-end de um site de coleções de postagens de imagens diversas, com foco em criação, leitura, atualização e deleção no que se refere a postagem da imagem e de sua descrição.
 
-São 5 aulas de mais pura imersão e conhecimento, todas documentadass, testadas e publicadas aqui.
+São 5 aulas de imersão e conhecimento, todas documentadas, testadas e publicadas aqui.
 
 # 4ª AULA - IMPLEMENTANDO ARMAZENAMENTO E UPLOAD DE IMAGENS
 
 **Relatório e documentação;**</p>
 <p style="text-align: justify;">
-Na aula passada aprendemos a pegar informações ou dados do nosso banco de dados na nossa nuvem "cloud" o mongoDB Atlas. Nessa aula iremos aprender a enviar dados de nossa API para o banco de dados - "vamos enviar posts". Aprendenmos a lidar com os 4 principais verbos HTTPs, são eles; POST (Criar), GET (Ler), PUT ou PATCH(Atualizar), DELETE (Deletar). Desenvolvemos algumas funções e métodos visando as 3 responsabilidades principais, que são sobre: a rota, o controlador (que possui funções de request e response), e o modelo que possui instruções de conexão ao banco de dados.
+Na aula passada aprendemos a pegar informações ou dados do nosso banco de dados na nossa nuvem "cloud" o mongoDB Atlas. Nessa aula iremos aprender a enviar dados de nossa API para o banco de dados - "vamos enviar posts" ou requisições .json como preferir. Aprendenmos a lidar com os 4 principais verbos HTTPs, são eles; POST (Criar), GET (Ler), PUT ou PATCH(Atualizar), DELETE (Deletar). Desenvolvemos algumas funções e métodos visando as 3 responsabilidades principais, que são sobre: a rota, o controlador (que possui funções de request e response), e o modelo que possui instruções de conexão ao banco de dados.
 </p>
 
 **Informações adicionais;**</p>
 
 - Instalamos e Testamos nossa **API RESTful** com a ferramenta **THUNDER CLIENT** de modo a enviar requisições HTTP (GET, POST, PUT, DELETE, PATCH, etc.) diretamente do VS Code para testar APIs. E também o fizemos com outra ferramenta a **POSTMAN** para desktop ambiente Windows 64 bits. Construimos requisições tipo .Json com cabeçalhos personalizados, parâmetros de consulta, corpo de requisição personalizado e autenticação utlizando as ferramentas com auxilio e dentro dos respectivos recursos fornecidos do Thunder Client ou do Postman </p>
 
-- importamos e trabalhamos com **o módulo fs do Node.js** que te permite interagir com o sistema de arquivos, oferecendo operações síncronas e assíncronas para ler, escrever, modificar e excluir arquivos e diretórios. A versão assíncrona é preferida para evitar o bloqueio do evento principal, garantindo melhor desempenho. O módulo fs vai fazer com q nossa API consiga conversar com sistemas de aquivos de nosso computador o servidor local</p>
+- importamos e trabalhamos com **o módulo fs do Node.js** que te permite interagir com o sistema de arquivos, oferecendo operações síncronas e assíncronas para ler, escrever, modificar e excluir arquivos e diretórios. A versão assíncrona é preferida para evitar o bloqueio do evento principal, garantindo melhor desempenho. O módulo fs faz com que nossa API consiga interagir com os sistemas de arquivos do nosso computador/servidor local.</p>
 
-- instalamos mais uma dependência o **Multer** que é um **middleware para o Node.js** usado para manipulação de uploads de arquivos em aplicativos web, principalmente com o framework Express. Ele facilita o processo de receber e armazenar arquivos enviados por meio de formulários HTML ou APIs.</p>
+- instalamos mais uma dependência: o **Multer** que é um **middleware para o Node.js** usado para manipulação de uploads de arquivos em aplicativos web, principalmente com o framework Express. Ele facilita o processo de receber e armazenar arquivos enviados por meio de formulários HTML ou APIs.</p>
  
-- Manipulamos arquivos do tipo **multipart/form-data** O Multer permite que você trate arquivos enviados com o tipo de conteúdo multipart/form-data, o formato mais comum usado para upload de arquivos via formulários HTML.</p>
+- Manipulamos arquivos do tipo **multipart/form-data**. O Multer permite que você trate arquivos enviados com o tipo de conteúdo multipart/form-data, o formato mais comum usado para upload de arquivos via formulários HTML.</p>
 
 - Criamos uma nova pasta na raiz de nosso projeto chamada "uploads" para receber todas as nossas imagens fisícas, com isso a nossa maquina local será um servidor local.</p>
 
